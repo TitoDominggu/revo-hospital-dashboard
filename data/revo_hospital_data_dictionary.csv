@@ -1,0 +1,54 @@
+file_name,field_name,data_type,description
+branches.csv,branch_id,object,Unique branch identifier
+branches.csv,branch_name,object,Hospital chain branch name
+branches.csv,city,object,Branch city in Java Island
+branches.csv,province,object,Province of branch
+branches.csv,latitude,float64,Branch latitude for mapping
+branches.csv,longitude,float64,Branch longitude for mapping
+branches.csv,hospital_tier,object,Flagship or Regional
+branches.csv,bed_capacity,int64,Number of available beds
+branches.csv,opening_year,int64,Year the branch opened
+branches.csv,branch_charge_multiplier,float64,Synthetic pricing factor used to create variation
+departments.csv,department_id,object,Unique department identifier
+departments.csv,department_name,object,Department name
+departments.csv,service_line,object,High-level service grouping
+departments.csv,base_los_days,float64,Synthetic baseline length of stay
+departments.csv,base_charge_idr,int64,Synthetic baseline gross charge in IDR
+departments.csv,volume_weight,float64,Synthetic demand weight used in generation
+doctors.csv,doctor_id,object,Unique doctor identifier
+doctors.csv,doctor_name,object,Doctor display name
+doctors.csv,gender,object,Doctor gender
+doctors.csv,specialty,object,Clinical specialty
+doctors.csv,years_experience,int64,Years of experience
+doctors.csv,department_id,object,Department assignment
+doctors.csv,branch_id,object,Branch assignment
+patients.csv,patient_id,object,Unique patient identifier
+patients.csv,patient_name,object,Synthetic patient name
+patients.csv,gender,object,Patient gender
+patients.csv,birth_date,object,Date of birth
+patients.csv,age_group,object,Pre-binned age group
+patients.csv,city,object,Patient residence city
+patients.csv,province,object,Patient residence province
+patients.csv,insurance_type,object,Insurance coverage type
+patients.csv,registration_date,object,Initial registration date
+admissions.csv,admission_id,object,Unique admission identifier
+admissions.csv,patient_id,object,Links to patients.csv
+admissions.csv,doctor_id,object,Links to doctors.csv
+admissions.csv,department_id,object,Links to departments.csv
+admissions.csv,branch_id,object,Links to branches.csv
+admissions.csv,admission_date,object,Admission date
+admissions.csv,discharge_date,object,Discharge date
+admissions.csv,length_of_stay_days,int64,Length of stay in days
+admissions.csv,admission_type,object,"Emergency, referral, walk-in, or follow-up"
+admissions.csv,diagnosis_group,object,Synthetic diagnosis grouping
+admissions.csv,room_class,object,Room class category
+admissions.csv,referral_source,object,Primary referral source
+billing.csv,billing_id,object,Unique billing identifier
+billing.csv,admission_id,object,Links to admissions.csv
+billing.csv,gross_charge_idr,int64,Gross charge in IDR
+billing.csv,insurance_covered_idr,int64,Amount covered by insurer
+billing.csv,discount_idr,int64,Discount amount in IDR
+billing.csv,out_of_pocket_idr,int64,Amount paid by patient
+billing.csv,net_revenue_idr,int64,Gross charge less discount
+billing.csv,payment_method,object,Payment method
+billing.csv,payment_status,object,Paid or Pending

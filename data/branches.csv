@@ -1,0 +1,9 @@
+branch_id,branch_name,city,province,latitude,longitude,hospital_tier,bed_capacity,opening_year
+BR001,Revo Hospital - Branch Jakarta Pusat,Jakarta Pusat,DKI Jakarta,-6.1754,106.8272,Flagship,420,2014
+BR002,Revo Hospital - Branch Jakarta Selatan,Jakarta Selatan,DKI Jakarta,-6.2615,106.8106,Flagship,390,2016
+BR003,Revo Hospital - Branch Bandung,Bandung,West Java,-6.9175,107.6191,Regional,310,2017
+BR004,Revo Hospital - Branch Cirebon,Cirebon,West Java,-6.732,108.5523,Regional,220,2019
+BR005,Revo Hospital - Branch Semarang,Semarang,Central Java,-6.9667,110.4167,Regional,280,2018
+BR006,Revo Hospital - Branch Yogyakarta,Yogyakarta,Special Region of Yogyakarta,-7.7971,110.3708,Regional,240,2018
+BR007,Revo Hospital - Branch Surabaya,Surabaya,East Java,-7.2575,112.7521,Flagship,360,2015
+BR008,Revo Hospital - Branch Malang,Malang,East Java,-7.9839,112.6214,Regional,230,2020

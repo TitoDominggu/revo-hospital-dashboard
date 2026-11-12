@@ -1,0 +1,9 @@
+department_id,department_name,service_line
+DP01,Emergency,Acute Care
+DP02,Internal Medicine,Medical
+DP03,Pediatrics,Medical
+DP04,Cardiology,Specialty
+DP05,Orthopedics,Specialty
+DP06,Neurology,Specialty
+DP07,Obstetrics & Gynecology,Specialty
+DP08,Oncology,Specialty
